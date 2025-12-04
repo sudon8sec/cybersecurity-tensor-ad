@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (DO NOT COMMIT THESE!)
+*.csv
+*.npy
+*.npz
+*.pkl
+*.joblib
+*.parquet
+data/raw/
+data/processed/
+src/data/*.csv
+
+# Model files
+*.pth
+*.h5
+data/models/
+
+# Outputs
+outputs/
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AWS
+.aws/
+*.pem
+
+# Temporary
+tmp/
+temp/
+.cache/
